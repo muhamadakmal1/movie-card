@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+body{
+  background-color: #262222;;
+  color: rgb(0, 0, 0); 
+}
+
+.card{
+    width:448px;
+    height: 100%;
+    background-color: rgb(110, 119, 131);
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    margin: auto;
+    border-radius: 10px;
+}
+
+p{
+  color: black;
+  padding: 20px;
+}
+
+img{
+  border-radius: 10px;
+  cursor: url(./image/play2.png), auto;
+  box-shadow: 4px 7px 3px 3px blueviolet;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 5vw;
+  cursor: pointer;
+  text-shadow: 0 2px 3px rgb(255, 2, 2);
+}
+span{
+  text-align: center;
+  margin: 3px;
+  display: block
+ 
+}
+.title{
+  text-align: center;
+  color: white;
+  font-size: 29px;
+  cursor: pointer;
+}
+.tag {
+    background: white;
+    border-radius: 10px;
+    padding: 3px 8px;
+    font-size: 14px;
+    margin-right: 4px;
+    line-height: 35px;
+    cursor: pointer;
+    
+  }
+  .tag:hover {
+    background: rgb(56, 114, 124);
+  }
+
+  button{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 8px;
+    font-size: 14px;
+    margin-right: 4px;
+    line-height: 35px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    cursor: url(./image/play3.png), auto;
+  }
+  button:hover {
+    background: rgb(0, 217, 255);
+  }
+
